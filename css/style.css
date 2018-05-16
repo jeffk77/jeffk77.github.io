@@ -1,0 +1,146 @@
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+h1 {
+    font-size: 2em;
+    color: #4aaaa5;
+}
+h2 {
+    font-size: 1.75em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+    font-size: 0.75em;
+}
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: #777777;
+    line-height: 2em;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+header {
+    position: fixed;
+	top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 2px #cccccc solid;
+}
+nav {
+	font-size: 1em;
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    display: inline-block;
+}
+header li {
+    display: block;
+    float: left;
+    border-right: 0.25px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.25em;
+    margin-top: 35px;
+}
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+li a:default {
+    color: #777777;
+}
+li a:visited {
+    color: #777777;
+}
+li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+body {
+    background-image: url("../images/circles-light.png");
+    background-color: rgb(184, 184, 184);
+    background-repeat: repeat;
+}
+main {
+    position: absolute;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    background-color: #ffffff;
+}
+footer {
+	position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    border-top: 8px #4aaaa5 solid;
+}
+footer p {
+    font-size: .85em;
+    color: #d8d8d8;
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+}
+.midsection {
+    width: 960px;
+    height: 100%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#profilepic {
+    width: 150px;
+    margin-right: 20px;
+    float: left;
+    
+}
+.content {
+    width: 70%;
+    margin: auto;
+}
+#namebanner {
+    background-color: #4aaaa5;
+    height: 100px;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#namebanner h1 {
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
